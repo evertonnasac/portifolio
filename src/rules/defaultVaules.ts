@@ -13,7 +13,7 @@ export const mediaQueries = {
    tablet : {
         default : {
             widthMin : "768px",
-            widthMax : "1000px"
+            widthMax : "1100px"
         }
    }
 }

@@ -16,7 +16,11 @@ const styles = css`
         font-family: 'Poppins', sans-serif;
         width: 98.5vw;
         overflow-x: hidden;
-        scroll-behavior: smooth;
+        
+        @media all and (orientation: portrait) {
+            width: 100vw;
+        }
+
     }
 
 `;
