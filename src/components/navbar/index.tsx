@@ -82,7 +82,9 @@ export const NavBar = () => {
     useEffect(() => {
         
         const {setValues} = useHeight()
-        setValues()
+
+        setTimeout(setValues, 1500);
+        
 
         document.addEventListener("scroll", getScrolly)
         window.addEventListener('resize', () => {
