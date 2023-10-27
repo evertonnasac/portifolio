@@ -7,10 +7,11 @@ import {styles} from "../../rules/defaultVaules"
 
 export const Container = styled.section`
     width: 100%;
-    height: 90vh;
+    max-width: 1450px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
+
     @media (max-width: ${mediaQueries.smartphone.default.widthMax}) {
         flex-direction: column;
         height: auto;
@@ -20,7 +21,6 @@ export const Container = styled.section`
 `
 export const Card = styled.article`
     width: 33%;
-    height: 80vh;
     border-bottom: 1px solid ${({theme}) => theme.colors.borderColor};
     border-right: 1px solid ${({theme}) => theme.colors.borderColor};
     padding: calc(${styles.heightNavBar } + 25px) 5% 5% ;

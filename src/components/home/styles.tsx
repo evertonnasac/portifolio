@@ -1,5 +1,6 @@
 
 import styled from "styled-components";
+import {styles} from "../../rules/defaultVaules"
 import avatar from "../../../public/img/avatar-linkedin.jpeg"
 import capa from "../../../public/img/fundo.jpg"
 import {mediaQueries} from "../../rules/defaultVaules"
@@ -58,7 +59,7 @@ const RoudedImage = styled.div`
 
 const Container = styled.div`
     width: 100% ;
-    height: 90vh;
+    height: calc(100vh - ${styles.heightNavBar});
     display: flex;
     align-items: center;
     padding-left: 20px;

@@ -3,7 +3,7 @@ import {Title as T, Paragraph as P} from "../../components/texts"
 import {styles, mediaQueries} from "../../rules/defaultVaules"
 
 export const Container = styled.section`  
-    height: 100vh;
+    max-width: 1450px;
     padding-top: ${styles.heightNavBar};
 
     @media (max-width: ${mediaQueries.smartphone.default.widthMax} ) {
