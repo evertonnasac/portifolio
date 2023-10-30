@@ -35,10 +35,10 @@ const About = () => {
                     Quem sou?
                </S.Title>
                <S.Paragraph color={theme.colors.grayDark} size={theme.fontSize.medium} >
-                  Desenvolvedor Web Jr / Estagiário e Estdante de Ciência da Computação
+                  Desenvolvedor Web Jr / Estagiário e Estudante de Ciência da Computação
                </S.Paragraph>
                <S.Paragraph color={theme.colors.gray} size={theme.fontSize.small}  >
-               Amante de JavaScrip em busca de conhecimento e ansioso para
+               Amante de JavaScript em busca de conhecimento e ansioso para
                transformar  ideias em experiências interativas 
                </S.Paragraph>
             </S.Card>
